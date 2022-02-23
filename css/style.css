@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: sans-serif;
+    color: white
+}
+
+.main{
+    height: 785px;
+    background: url("../img/bg.jpg") center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+
+.main-child{
+    z-index: 1;
+    display: grid;
+    justify-items: center;
+
+}
+
+.main h1{
+    font-size: 64px;
+    max-width: 510px;
+    
+}
+
+.main h2{
+    font-size: 26px;
+    margin-top: 15px;
+    
+}
+
+.main h3{
+    font-size: 19px;
+    margin-top: 30px;
+}
+
+.form-cta{
+    display: grid;
+    grid-template-columns: 500px 250px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.form-cta input{
+    padding: 20px 10px;
+}
+
+.grandiet{
+    background: rgba(0, 0, 0, 0.4);
+    background-image: linear-gradient(
+        to top,
+        rgba(0, 0, 0, 0.8) 0,
+        rgba(0, 0, 0, 0) 60%,
+        rgba(0, 0, 0, 0.8) 100%
+    );
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
